@@ -1,0 +1,32 @@
+{
+  "name": "adityavora",
+  "owner": { "name": "Aditya Vora", "url": "https://github.com/adityavora16" },
+  "metadata": {
+    "description": "Free Claude Code plugins: Terse for shorter answers, Session Board Lite for splitting a big job into parallel sessions.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "terse",
+      "source": { "source": "github", "repo": "adityavora16/terse" },
+      "description": "Shorter Claude answers: the answer first, no preamble, recap or closing offer, and the AI writing tells stripped from the words that stay.",
+      "version": "1.0.0",
+      "author": { "name": "Aditya Vora" },
+      "homepage": "https://github.com/adityavora16/terse",
+      "license": "MIT",
+      "keywords": ["concise", "writing", "brevity"],
+      "category": "productivity"
+    },
+    {
+      "name": "session-board-lite",
+      "source": { "source": "github", "repo": "adityavora16/session-board-lite" },
+      "description": "Split one big job into Claude Code sessions and build a local board with one paste-ready card per session.",
+      "version": "1.0.0",
+      "author": { "name": "Aditya Vora" },
+      "homepage": "https://github.com/adityavora16/session-board-lite",
+      "license": "MIT",
+      "keywords": ["parallel-sessions", "planning"],
+      "category": "productivity"
+    }
+  ]
+}
