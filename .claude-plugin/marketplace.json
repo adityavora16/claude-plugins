@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "terse",
-      "source": { "source": "github", "repo": "adityavora16/terse" },
+      "source": { "source": "url", "url": "https://github.com/adityavora16/terse.git" },
       "description": "Shorter Claude answers: the answer first, no preamble, recap or closing offer, and the AI writing tells stripped from the words that stay.",
       "version": "1.0.0",
       "author": { "name": "Aditya Vora" },
@@ -19,7 +19,7 @@
     },
     {
       "name": "session-board-lite",
-      "source": { "source": "github", "repo": "adityavora16/session-board-lite" },
+      "source": { "source": "url", "url": "https://github.com/adityavora16/session-board-lite.git" },
       "description": "Split one big job into Claude Code sessions and build a local board with one paste-ready card per session.",
       "version": "1.0.0",
       "author": { "name": "Aditya Vora" },
